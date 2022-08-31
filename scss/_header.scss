@@ -1,0 +1,69 @@
+@media screen and (max-width: 320px) {
+  .header {
+    display: flex;
+    min-width: 320px;
+    height: 88px;
+    background: #ffffff;
+    border-bottom: 1px solid #d9fff5;
+  }
+  .header-button {
+    &__burger {
+      position: absolute;
+      left: 16px;
+      top: 24px;
+      height: 40px;
+      width: 40px;
+      background-image: url('/1.6/img/burger.svg');
+      border-radius: 20px;
+    }
+    &__divider1 {
+      position: absolute;
+      left: 186px;
+      top: 28px;
+      height: 32px;
+      width: 2px;
+      border-radius: 1px;
+      background: #eaeaea;
+    }
+    &__repair {
+      position: absolute;
+      left: 208px;
+      top: 24px;
+      height: 40px;
+      width: 40px;
+      background-image: url('/1.6/img/repair.svg');
+      border-radius: 20px;
+    }
+    &__checkstatus {
+      position: absolute;
+      left: 264px;
+      top: 24px;
+      height: 40px;
+      width: 40px;
+      background-image: url('/1.6/img/checkstatus.svg');
+      border-radius: 20px;
+    }
+    &__text,
+    &__text2,
+    &__call,
+    &__chat,
+    &__profile,
+    &__divider2 {
+      display: none;
+    }
+  }
+  .button {
+    border: none;
+  }
+  .img-group {
+    position: absolute;
+    left: 72.72607421875px;
+    top: 18.592529296875px;
+    height: 50.814815521240234px;
+    width: 96.54814910888672px;
+    margin: 0;
+    background-image: url('/1.6/img/Group.svg');
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1439px) {
+}
