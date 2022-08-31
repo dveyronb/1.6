@@ -22,7 +22,7 @@
   font-weight: 500;
   src: local("TT Lakes"), url("/1.6/fonts/TTLakesCondensed-Medium.woff"), url("/1.6/fonts/TTLakesCondensed-Medium.ttf"), url("/1.6/fonts/TTLakesCondensed-Medium.eot");
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .header {
     display: flex;
     min-width: 320px;
@@ -82,14 +82,14 @@
     background-image: url("/1.6/img/Group.svg");
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .main {
     width: 320px;
     min-height: 509px;
     background-color: #f8f8f8;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .main__title {
     position: absolute;
     height: 40px;
@@ -121,7 +121,7 @@
     border-radius: 2px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .slider {
     position: absolute;
     height: 40px;
@@ -223,7 +223,7 @@
   color: #7e7e82;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .container-stori {
     position: absolute;
     height: 322px;
