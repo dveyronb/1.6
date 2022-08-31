@@ -1,0 +1,58 @@
+@media screen and (min-width: 320px) {
+  .brand-repair__title {
+    position: absolute;
+    left: 0;
+    top: 586px;
+
+    height: 80px;
+    width: 320px;
+    border-top: 1px solid #d9fff5;
+
+    background: linear-gradient(90deg, #f8f8f8 0%, #ffffff 98.61%);
+  }
+  .brand-repair__title p {
+    position: absolute;
+    height: 48px;
+    left: 16px;
+    top: 10px;
+
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+
+    color: #7e7e82;
+  }
+  .equipment-repair__title {
+    position: absolute;
+    left: 0;
+    top: 793px;
+
+    height: 80px;
+    width: 320px;
+    border-top: 1px solid #d9fff5;
+
+    background: linear-gradient(90deg, #f8f8f8 0%, #ffffff 98.61%);
+  }
+  .equipment-repair__title p {
+    position: absolute;
+    height: 48px;
+    left: 16px;
+    top: 10px;
+
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+
+    color: #7e7e82;
+  }
+}

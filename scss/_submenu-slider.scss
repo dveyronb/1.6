@@ -1,0 +1,99 @@
+@media screen and (min-width: 320px) {
+  .slider {
+    position: absolute;
+    height: 40px;
+    width: 320px;
+    left: 16px;
+    top: 176px;
+  }
+  .slider__text-devices {
+    position: absolute;
+    height: 40px;
+    width: 246px;
+    left: 0px;
+    top: 0px;
+  }
+  .slider__border-devices {
+    border-radius: 6px;
+    background: #ffffff;
+    border: 2px solid #b8ffec;
+  }
+  .slider__link-devices {
+    position: absolute;
+    height: 24px;
+    width: 220.15966796875px;
+    left: 15px;
+    top: 7px;
+  }
+  .slider__text-services {
+    position: absolute;
+    height: 40px;
+    width: 230px;
+    left: 250px;
+    top: 0px;
+    border-radius: 6px;
+  }
+  .slider__link-services {
+    position: absolute;
+    height: 24px;
+    width: 191.17843627929688px;
+    left: 15px;
+    top: 7px;
+  }
+  .slider__text-prices {
+    position: absolute;
+    height: 40px;
+    width: 130.2888946533203px;
+    left: 482px;
+    top: 0px;
+  }
+  .slider__link-prices {
+    position: absolute;
+    height: 24px;
+    width: 128.1703643798828px;
+    left: 0px;
+    top: 6px;
+  }
+  .slider__text-special {
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    left: 614px;
+    top: 0px;
+  }
+  .slider__link-special {
+    position: absolute;
+    height: 24px;
+    width: 148.86549377441406px;
+    left: 0px;
+    top: 6px;
+  }
+  .slider__text-brands,
+  .slider__text-addresses,
+  .slider__text-reviews {
+    display: none;
+  }
+}
+.slider {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+  min-height: 90px;
+  min-width: 320px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+.slider a {
+  text-decoration: none;
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #7e7e82;
+}

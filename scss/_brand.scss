@@ -1,0 +1,87 @@
+@media screen and (min-width: 320px) {
+  .swiper-container {
+    position: relative;
+    left: 0;
+    top: 545px;
+    min-width: 320px;
+    height: 116px;
+    overflow: hidden;
+  }
+  .swiper-wrapper {
+    top: 0;
+    left: 12px;
+  }
+  .swiper-slide {
+    max-height: 70px;
+    max-width: 238px;
+    margin: 16px 8px 16px 8px;
+  }
+  .logo {
+    &__lenovo,
+    &__lenovo-2 {
+      height: 32px;
+      width: 108px;
+      background-image: url('/1.6/img/lenovo.svg');
+      margin: auto auto auto 14px;
+    }
+
+    &__samsung,
+    &__samsung-2 {
+      height: 38.515625px;
+      width: 116px;
+      background-image: url('/1.6/img/samsung.svg');
+      margin: auto auto auto 14px;
+    }
+
+    &__apple,
+    &__apple-2 {
+      height: 44px;
+      width: 44px;
+      background-image: url('/1.6/img/apple.svg');
+      margin: auto auto auto 16px;
+    }
+
+    &__viewsonic {
+      height: 21px;
+      width: 128px;
+      background-image: url('/1.6/img/ViewSonic.svg');
+      margin: auto;
+    }
+
+    &__bosch {
+      height: 28.601268768310547px;
+      width: 128px;
+      background-image: url('/1.6/img/bosch.svg');
+      margin: auto;
+    }
+
+    &__hp {
+      height: 52px;
+      width: 52px;
+      background-image: url('/1.6/img/HP.svg');
+      margin: auto auto auto 10px;
+    }
+
+    &__acer {
+      height: 24px;
+      width: 94px;
+      background-image: url('/1.6/img/acer.svg');
+      margin: auto auto auto 16px;
+    }
+
+    &__sony {
+      height: 25.600000381469727px;
+      width: 128px;
+      background-image: url('/1.6/img/sony.svg');
+      margin: auto auto auto 14px;
+    }
+  }
+  .swiper-pagination {
+    position: absolute;
+    top: 765px;
+    left: 0px;
+  }
+  .button-show {
+    display: none;
+  }
+}
